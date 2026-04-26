@@ -1,63 +1,29 @@
-🔗 URL Shortener
-🚀 About
+🔗 URL Shortener - Node.js Project
+A simple and beginner-friendly URL Shortener web app built using Node.js, Vanilla JavaScript, and JSON-based storage.
+This app allows users to enter any long URL and generate a short custom URL, which redirects to the original webpage.
 
-A simple yet powerful URL shortener built with HTML, CSS, JavaScript, and Node.js.
+🚀 Features
+✔ Shorten any valid URL
+✔ Option to enter your own custom shortcode
+✔ Automatically generates random shortcode if not provided
+✔ Click on shortened link to open the original URL
+✔ Stores all links in a JSON file (no database required)
+✔ Redirect functionality: /shortcode → original URL
+✔ Clean UI with real-time updated list
+✔ Works entirely on local machine
 
-It converts long URLs into clean, shareable links with fast redirection and a minimal user interface.
+🛠 Tech Stack
+Layer	Technology
+Backend	Node.js (HTTP module)
+Frontend	HTML5, CSS3, JavaScript
+Storage	JSON File System
+❤️ Credits
+Project developed by Aditya Verma
+Built while learning from online tutorials and hands-on practice 💡
 
-✨ Features
-🔗 Generate short URLs instantly
-⚡ Fast and reliable redirection
-🎯 Clean and minimal UI
-🧠 Efficient backend handling
-📦 Lightweight and easy to use
-
-🛠️ Tech Stack
-Frontend: HTML, CSS, JavaScript
-Backend: Node.js
-Runtime: Node.js
-
-⚙️ How It Works
-User Input → Server → Generate Short ID → Store Mapping → Redirect
-User enters a long URL
-Server generates a unique short ID
-Short URL is created and stored
-Visiting the short URL redirects to the original link
-
-📂 Project Structure
-url-shortener/
-├── public/        # Frontend files
-├── routes/        # API routes
-├── controllers/   # Application logic
-├── server.js      # Entry point
-└── package.json
-
-🧪 Installation & Setup
-git clone https://github.com/your-username/url-shortener.git
-cd url-shortener
+▶️ How to Run Locally
+1️⃣ Clone the repository
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
 npm install
-npm start
 node app.js
-
-🌍 Usage
-Open the application in your browser
-Enter a long URL
-Generate a short link
-Use and share the short URL
-📈 Future Improvements
-📊 Click analytics
-🔐 User authentication
-✏️ Custom short URLs
-🗂️ URL history dashboard
-
-🤝 Contributing
-
-Contributions are welcome.
-
-Fork the repository
-Create a new branch
-Make your changes
-Submit a pull request
-⭐ Support
-
-If you found this project useful, consider giving it a ⭐
